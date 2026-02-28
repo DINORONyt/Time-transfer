@@ -136,7 +136,7 @@ namespace Lab01_Variant12
         }
 
         /// <summary>
-        /// ЗАДАЧА 2: Перевод секунд в часы, минуты и секунды
+        /// ЗАДАЧА 2: Перевод секунд в часы, минуты и с
         /// </summary>
         static void Task2_ConvertSecondsToHoursMinutesSeconds()
         {
