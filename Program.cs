@@ -90,7 +90,7 @@ namespace Lab01_Variant12
                 // Проверка на то, что введено число
                 if (!int.TryParse(input, out value))
                 {
-                    Console.WriteLine("Ошибка: введите корректное целое число до 2 147 483 647");
+                    Console.WriteLine("Ошибка: введите корректное целое число до 2 147 483 647 ");
                     Console.WriteLine();
                     continue;
                 }
@@ -185,7 +185,7 @@ namespace Lab01_Variant12
             int secondsInput = ReadPositiveInt("Введите количество секунд: ");
 
             // Константа: количество секунд в сутках
-            // Формула: 24 часа × 60 минут × 60 секунд = 86400 секунд
+            // Формула: 24 часа × 60 минут × 60 секунд = 86400
             const int SECONDS_IN_DAY = 24 * 60 * 60;
 
             // Вычисление процента от суток
